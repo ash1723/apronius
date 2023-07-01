@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #0ff;
+    background: linear-gradient(to right, #999,#0ff,#999);
     font-size: 1.1rem;
     justify-content: center;
 }
 
 nav {
     height: 150px;
-    background-color: #fff;
+    background: linear-gradient(to right,#000,#fff,#fff);
     display: flex;
     justify-content: space-between;
     align-items: center;

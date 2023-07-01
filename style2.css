@@ -6,14 +6,14 @@
 }
 
 body {
-    background-color: #000;
+    background: linear-gradient(#444, #555, #444);
     font-size: 1.1rem;
     justify-content: center;
 }
 
 nav {
     height: 150px;
-    background-color: #fff;
+    background: linear-gradient(#222, #444, #222);
     display: flex;
     justify-content: space-between;
     align-items: center;

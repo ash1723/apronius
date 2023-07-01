@@ -6,14 +6,14 @@
 }
 
 body {
-    background-color: #ff0;
+    background: linear-gradient(#ff0,#0f0,#ff0);
     font-size: 1.1rem;
     justify-content: center;
 }
 
 nav {
     height: 150px;
-    background-color: #0f0;
+    background: linear-gradient(to right,#0f0,#9f0,#ff0,#9f0,#0f0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,12 +64,12 @@ button {
     border: none;
     cursor: pointer;
     color: #ff0;
-    background: #000;
+    background: linear-gradient(#000,#333,#000);
     border-radius: 50px;
 }
 
 button:hover {
-    background: #000;
+    background: linear-gradient(#000,#333,#000);
     color: #0f0;
 }
 
